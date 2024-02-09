@@ -1,20 +1,22 @@
-maths = 90
-eng = 60
-
-if maths > 70 and eng > 70:
-    print("success")
-
-elif maths > 70 or eng < 70:
-    print("you passed either maths or eng")
-
-else:
-    print("maths and eng equals to 70")
+k = 7
+l = 9
+if not k > l:
+    print("k is not greater than l")
 
 
 
 
-
-
+# maths = 90
+# eng = 60
+#
+# if maths > 70 and eng > 70:
+#     print("success")
+#
+# elif maths > 70 or eng < 70:
+#     print("you passed either maths or eng")
+#
+# else:
+#     print("maths and eng equals to 70")
 
 
 #
