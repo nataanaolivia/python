@@ -18,8 +18,32 @@ bio = int(input("bio scored: "))
 if bio < 0 or bio > 100:
     print("invalid input")
 
+# total = [maths+eng+phy+chem+bio]
+# print(total)
+# average = [(maths+eng+phy+chem+bio)/5]
+# print(average)
+#
+#
+#
+#
+# if average > 0 < 39:
+#     print("E")
+#
+# if average > 40 < 50:
+#     print("D")
+#
+# if average > 50 < 60:
+#     print("C")
+#
+# if average > 60 < 80:
+#     print("B")
+#
+# if average > 80 < 99:
+#     print("A")
 
-#------Computation-----#
+
+#
+# ------Computation-----#
 # total = [maths+eng+phy+chem+bio]
 #
 #
@@ -27,46 +51,36 @@ if bio < 0 or bio > 100:
 
 
 
-print(f"the total sum {maths+eng+phy+chem+bio}")
+print(f"the total sum: {maths+eng+phy+chem+bio}")
 
-print(f"average {(maths+eng+phy+chem+bio)/5}")
-
-
+print(f"average: {(maths+eng+phy+chem+bio)/5}")
 
 
 
-if (maths+eng+phy+chem+bio)/5 > 0 < 39:
+
+
+if (maths+eng+phy+chem+bio)/5 < 39:
     print("E")
 
 
-if (maths+eng+phy+chem+bio)/5 > 40 < 50:
+if (maths+eng+phy+chem+bio)/5 < 50:
     print("D")
 
-if (maths+eng+phy+chem+bio)/5 > 50 < 60:
+if (maths+eng+phy+chem+bio)/5 < 60:
     print("C")
 
-if (maths+eng+phy+chem+bio)/5 > 60 < 80:
+if (maths+eng+phy+chem+bio)/5 < 80:
     print("B")
 
-if (maths+eng+phy+chem+bio)/5 > 80 < 99:
+if (maths+eng+phy+chem+bio)/5 > 80:
     print("A")
 
 
 
 
+print(f"the total sum {maths+eng+phy+chem+bio}")
 
-
-
-
-
-
-
-
-
-
-# print(f"the total sum {maths+eng+phy+chem+bio}")
-#
-# print(f"average {(maths+eng+phy+chem+bio)/5}")
+print(f"average {(maths+eng+phy+chem+bio)/5}")
 
 
 
