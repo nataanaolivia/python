@@ -8,7 +8,7 @@ module = python(675)
 if module == 0:
     print("even")
 
-else :
+else:
     print("odd")
 
 

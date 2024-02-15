@@ -1,3 +1,11 @@
+from practise import python
+uu = python(7, 9)
+print(uu)
+
+
+
+
+
 # def mit():
 #     print("I am the mit function")
 #

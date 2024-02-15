@@ -31,6 +31,8 @@ fruits.insert(1, "runner")
 fruits.insert(4, "wendy")
 fruits.insert(5, "gerry")
 fruits.insert(7, "bliss")
+fruits.append("cocomelon")
+
 
 print(fruits)
 
